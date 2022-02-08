@@ -2,7 +2,7 @@
 > [PARL实现DQN，CartPole环境](https://github.com/PaddlePaddle/PARL/tree/develop/examples/tutorials/parl2_dygraph/lesson3/dqn)
 
 
-> 内容 参考视频：
+> 参考视频：
 > [世界冠军带你从零实践强化学习](https://www.bilibili.com/video/BV1yv411i7xd?p=10&spm_id_from=pageDriver)
 
 
