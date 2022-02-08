@@ -5,6 +5,23 @@
 > 参考视频：
 > [世界冠军带你从零实践强化学习](https://www.bilibili.com/video/BV1yv411i7xd?p=10&spm_id_from=pageDriver)
 
+# 介绍
+强化学习 CartPole环境，Tensorflow实现DQN。
+
+运行`train.py`文件即可。
+支持`gym`的两种环境`CartPole-v0`，`MountainCar-v0`。
+
+```python
+if __name__ == "__main__":
+    main(env="CartPole-v0")
+    # main(env="MountainCar-v0")
+```
+# 依赖
+```bash
+gym == 0.21.0
+numpy == 1.22.2
+tensorflow == 2.4.0
+```
 
 
 # DQN的两大创新点
