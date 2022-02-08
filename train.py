@@ -106,7 +106,7 @@ def main(env_name="MountainCar-v0"):
     )
 
     # 加载模型
-    save_file_name = f"code/Reforcement-Learning/DQN-CartPole/weights/{env_name}/dqn"
+    save_file_name = f"weights/{env_name}/dqn"
     # agent.restore(save_file_name)
 
     # 先往经验池里存一些数据，避免最开始训练的时候样本丰富度不够
@@ -149,7 +149,7 @@ def evalutate(env_name="MountainCar-v0"):
     )
 
     # 加载模型
-    save_file_name = f"code/Reforcement-Learning/DQN-CartPole/weights/{env_name}/dqn"
+    save_file_name = f"weights/{env_name}/dqn"
     agent.restore(save_file_name)
 
     eval_reward = run_evaluate_episodes(agent, env, render=True)
